@@ -1,0 +1,11 @@
+var x = 5
+var y = 10
+
+func sum(a, b)
+    print("sum = ", a + b)
+
+if x < y:
+    print("x < y")
+    sum(x, y)
+else:
+    print("x >= y")
